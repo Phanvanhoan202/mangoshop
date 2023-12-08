@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/mangoshop/static/css/main.087866d3.css",
-    "main.js": "/mangoshop/static/js/main.dc965dac.js",
+    "main.js": "/mangoshop/static/js/main.7e6b50d1.js",
     "static/js/787.2b915e3e.chunk.js": "/mangoshop/static/js/787.2b915e3e.chunk.js",
     "static/media/logoDark.png": "/mangoshop/static/media/logoDark.fffd4c7fd1e47630c710.png",
     "static/media/googleLogo.png": "/mangoshop/static/media/googleLogo.0b50af2fbb8c1e8ca23e.png",
@@ -10,11 +10,11 @@
     "static/media/paymentLogo.png": "/mangoshop/static/media/paymentLogo.c301b666ef0989278f2e.png",
     "index.html": "/mangoshop/index.html",
     "main.087866d3.css.map": "/mangoshop/static/css/main.087866d3.css.map",
-    "main.dc965dac.js.map": "/mangoshop/static/js/main.dc965dac.js.map",
+    "main.7e6b50d1.js.map": "/mangoshop/static/js/main.7e6b50d1.js.map",
     "787.2b915e3e.chunk.js.map": "/mangoshop/static/js/787.2b915e3e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.087866d3.css",
-    "static/js/main.dc965dac.js"
+    "static/js/main.7e6b50d1.js"
   ]
 }
