@@ -2,7 +2,7 @@ import React from 'react';
 import { Home } from './pages/Home';
 import { Header } from './components/Header';
 import { Footer } from './components/Footer';
-import { createBrowserRouter,createMemoryRouter, Outlet, RouterProvider, ScrollRestoration } from 'react-router-dom';
+import { createMemoryRouter, Outlet, RouterProvider, ScrollRestoration } from 'react-router-dom';
 import { Cart } from './pages/Cart';
 import { productsData } from './api/Api';
 import { Product } from './components/Product';
