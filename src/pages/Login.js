@@ -11,9 +11,9 @@ export const Login = () => {
     const navigate = useNavigate();
     const auth = getAuth();
     const provider = new GoogleAuthProvider();
-    const handleGoogleLogin = (e) => {
+    const handleGoogleLogin = async (e) => {
         e.preventDefault();
-        signInWithPopup(auth, provider)
+        await signInWithPopup(auth, provider)
             .then((result) => {
                 const user = result.user;
                 console.log(user);
