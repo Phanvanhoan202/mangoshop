@@ -12,8 +12,6 @@ export const Login = () => {
     const auth = getAuth();
     const provider = new GoogleAuthProvider();
     const handleGoogleLogin = async (e) => {
-        e.preventDefault();
-
         await signInWithPopup(auth, provider)
             .then((result) => {
                 const user = result.user;
@@ -35,8 +33,6 @@ export const Login = () => {
             });
     };
     const handleFacebookLogin = async (e) => {
-        e.preventDefault();
-
         //cài đặt provider đăng nhập facebook
         const facebookProvider = new FacebookAuthProvider();
         
