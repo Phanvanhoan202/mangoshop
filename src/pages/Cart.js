@@ -62,18 +62,18 @@ export const Cart = () => {
                         >
                             proceed to checkout
                         </button>
-                        {payNow && (
-                            <div className="flex items-center justify-center mt-6 w-full">
-                                <StripeCheckout
-                                    stripeKey="pk_test_51OICnFFDxTYWT6m48qCPjfCkT6AoznvzHUwhHUgNt3tGdZZtZh7buSdbsPsRBMollrdUrlKNF0W0wbPLD53kYQyS00KCQeDwRw"
-                                    name="Mango Fashion Shop" // the pop-in header title
-                                    amount={totalAmt * 100} // cents
-                                    email={userInfo.email}
-                                    description={`Your Payment amount is $${totalAmt}`}
-                                    label="Pay to Mango"
-                                />
-                            </div>
-                        )}
+                        // {payNow && (
+                        //     <div className="flex items-center justify-center mt-6 w-full">
+                        //         <StripeCheckout
+                        //             stripeKey="pk_test_51OICnFFDxTYWT6m48qCPjfCkT6AoznvzHUwhHUgNt3tGdZZtZh7buSdbsPsRBMollrdUrlKNF0W0wbPLD53kYQyS00KCQeDwRw"
+                        //             name="Mango Fashion Shop" // the pop-in header title
+                        //             amount={totalAmt * 100} // cents
+                        //             email={userInfo.email}
+                        //             description={`Your Payment amount is $${totalAmt}`}
+                        //             label="Pay to Mango"
+                        //         />
+                        //     </div>
+                        // )}
                     </div>
                 </div>
             )}
